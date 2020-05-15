@@ -38,30 +38,22 @@
 }
 
 .DivIMG {
-   /*display: block;
-    height: 200px;
-    left: 50px;
-    object-fit: cover;
-    object-position: 50% 50%;
-    opacity: 0;
-    position: absolute;
-    text-size-adjust: 100%;
-    top: 0;
-    transition-delay: 0.5s;
+    display: flex;
+    position: relative;
+    padding-bottom: 200px;
+    -moz-text-size-adjust: 100%;
     width: 200px;
-    -webkit-font-smoothing:antialiased;*/
-
+    -webkit-font-smoothing: antialiased;
 }
 .IMG {
     display: block;
     font-family: lato,sans-serif;
     height: 200px;
+    position: absolute;
     left: 0px;
     object-fit: cover;
-    object-position: 50% 50%;
-    position: absolute;
+    object-position: 50% 50%
     text-size-adjust: 100%;
-    top: 0;
     transition-delay: 0.5s;
     width: 200px;
     -webkit-font-smoothing:antialiased;
@@ -81,14 +73,7 @@ h3 {
    font-weight: 400;
 }
 
-.DivIMG {
-    /*display: block;
-    font-family: lato, sans-serif;
-    padding-bottom: 200px;
-    -moz-text-size-adjust: 100%;
-    width: 200px;
-    -webkit-font-smoothing: antialiased;*/
-}
+
 
 .Parte2 {
     background-color: #f76f8e;
@@ -149,3 +134,155 @@ h4 {
 body {
 
     font-family: 'Montserrat', sans-serif; }
+
+.Parte3 {
+    align-items: center;
+    display: flex;
+    font-family: lato,sans-serif;
+    height: 2064.17px;
+    justify-content: center;
+    margin-top: -192px;
+    padding-bottom: 180px;
+    text-size-adjust: 100%;
+    width: 635.333px;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-font-smoothing:antialiased;
+
+}
+
+.bloco {
+
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: rgba(233,240,243,0.5) 0px 5px 5px 0px;
+    display: block;
+    font-family: lato,sans-serif;
+    height: 2014.17px;
+    margin-bottom: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 24px;
+    max-width: 1200px;
+    text-size-adjust: 100%;
+    width: 583.333px;
+    -webkit-font-smoothing:antialiased;
+}
+
+.Sub.bloco1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: lato,sans-serif;
+    height: 609.833px;
+    justify-content:center ;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:50px ;
+    text-size-adjust: 100%;
+    width: 525.333px;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    -webkit-font-smoothing:antialiased;
+}
+
+.figura1 {
+
+    display: block;
+    font-family: lato,sans-serif;
+    /*height: 50px;*
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /*position: relative;*/
+    text-size-adjust: 100%;
+    width: 50px;
+    -webkit-font-smoothing:antialiased;
+}
+
+.Sub-figura1 {
+    display: block;
+    font-family: lato,sans-serif;
+    height: 0px;
+    padding-bottom: 50px;
+    text-size-adjust: 100%;
+    width: 50px;
+    -webkit-font-smoothing:antialiased;
+}
+
+.Img2 {
+    display: block;
+    font-family: lato,sans-serif;
+    height: 50px;
+    left: 0px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    opacity: 0;
+    position: absolute;
+    text-size-adjust: 100%;
+    top:0px;
+    transition-delay: 0.5s;
+    width: 50px;
+    -webkit-font-smoothing:antialiased;
+
+}
+
+.img2 {
+    display: inline;
+    font-family: lato,sans-serif;
+    height: auto;
+    text-size-adjust: 100%;
+    width: auto;
+    -webkit-font-smoothing:antialiased;
+}
+.Titulo1 {
+    display: block;
+    font-family: lato,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    height: 28px;
+    margin-block-end: 24px;
+    margin-block-start: 24px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    text-size-adjust: 100%;
+    width: 114.635px;
+    -webkit-font-smoothing:antialiased;    
+}
+
+.Descrição1 {
+    display: block;
+    font-family: lato,sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    height: 77.333px;
+    margin-block-end: 30px;
+    margin-block-start: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    text-size-adjust: 100%;
+    width: 309.333px;
+    -webkit-font-smoothing:antialiased;
+}
+
+.texto1 {
+    color: rgb(247,111,142);
+    display: block;
+    font-family: lato,sans-serif;
+    font-size: 20.8px;
+    font-weight: 500;
+    height: 24px;
+    margin-block-end: 20.8px;
+    margin-block-start: 20.8px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    text-align: center;
+    text-size-adjust: 100%;
+    width: 222.052px;
+    -webkit-font-smoothing:antialiased;
+}
